@@ -1,0 +1,101 @@
+h1 {
+  font-size: 100px;
+  font-weight: 1000;
+  margin: 0 auto;
+  font-family: billabong, "billabongregular";
+  text-align: center;
+  letter-spacing: -2px;
+}
+p {
+  font-size: 1.4rem;
+  line-height: 0.5;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "billabongregular";
+  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf")
+      format("truetype"),
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.photoGrid {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid black;
+  width: ‭333.3333333333333‬ px;
+  height: 400px;
+  margin: 0px 23px 60px 23px;
+}
+img {
+  height: 300px;
+  width: 350px;
+  display: block;
+}
+.card p {
+  display: inline-block;
+  margin: 10px 0px 2px 10px;
+  text-align: left !important;
+}
+.card button {
+  display: block;
+  padding: 13px 60px;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.204);
+  color: red;
+  margin: 20px auto;
+  font-weight: 600;
+  font-size: 15px;
+}
+.card button:hover{
+  background-color: gainsboro;
+}
+.addIcon {
+  margin: 20px auto;
+  display: table; /* search  */
+  padding: 30px;
+  border-width: 0px;
+  background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center
+    no-repeat;
+  background-size: contain; /*search*/
+}
+.form{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:20px ;
+}
+.form input{
+  padding: 15px;
+  width:100% ;
+  margin: 0px 0px 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #f2f2f2f2;
+  border:none;
+}
+.form button{
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px;
+  width: 100%;
+  border:none;
+}
+.form button:hover{
+  background-color: grey;
+}
